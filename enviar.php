@@ -54,7 +54,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
     $mail->Username = 'correo@gmail.com';  // Tu correo gmail
     $mail->Password = 'password'; // Tu contrasena gmail
     $mail->FromName = 'Tu nombre'; // 
-    $mail->From = 'info@inflablespanama.com'; //email de remitente desde donde se envía el correo, este caso para evitar spam es el mismo que tu correo gmail
+    $mail->From = 'correo@gmail.com'; //email de remitente desde donde se envía el correo, este caso para evitar spam es el mismo que tu correo gmail
     
     if ($mail->Send())
     echo "<script>alert('Formulario enviado exitosamente, le responderemos lo más pronto posible.');location.href ='javascript:history.back()';</script>";
