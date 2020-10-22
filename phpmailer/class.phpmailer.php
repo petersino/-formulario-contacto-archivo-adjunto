@@ -1,4 +1,6 @@
 <?php
+
+error_reporting(0);
 /*~ class.phpmailer.php
 .---------------------------------------------------------------------------.
 |  Software: PHPMailer - PHP email class                                    |
